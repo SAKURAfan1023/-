@@ -4,10 +4,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.w {
+    margin: 0 auto;
+    width: 1200px;
+}
+
 .header {
     height: 100px;
     width: 1200px;
-    background-color: pink;
+    /* background-color: pink; */
     margin: 0 auto;
 }
 
@@ -30,7 +35,7 @@
 .guide {
     width: 410px;
     height: inherit;
-    background-color: aqua;
+    /* background-color: aqua; */
     float: left;
     text-align: center;
 }
@@ -97,8 +102,56 @@ a {
     border-color: #00a4ff;
 }
 
-.int {
-    border: 3px;
-    border-radius: 0;
+.search {
+    width: 402px;
+    height: 100px;
+    float: left;
+}
 
+.int {
+    /* border: 3px; */
+    border-radius: 0;
+    width: 360px;
+    height: 39px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #bfbfbf;
+    float: left;
+}
+
+.button {
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    float: left;
+    background-color: #00a4ff;
+}
+
+.user {
+    height: 100px;
+    width: 184px;
+    float: left;
+    /* background-color: aquamarine; */
+}
+
+.userhead {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 36px;
+    background-image: url(images/头像.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.username {
+    height: 20px;
+    width: 80px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 40px;
+    color: #a7a8a9;
 }
