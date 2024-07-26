@@ -273,3 +273,33 @@ a {
     text-align: center;
     line-height: 20px;
 }
+
+.littlebox {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 17px;
+    /* background-color: #14034b; */
+}
+
+
+.textleft {
+    float: left;
+    width: 200px;
+    height: inherit;
+    font-size: 20px;
+    line-height: 60px;
+    color: #494949;
+    text-align: left;
+}
+
+.textright {
+    float: left;
+    width: 1000px;
+    height: 12px;
+    font-size: 12px;
+    margin-top: 25px;
+    line-height: 12px;
+    color: #494949;
+    text-align: right;
+}
