@@ -1,4 +1,104 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 100px;
+    width: 1200px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 420px;
+    width: 1919px;
+    background-color: #1c036c;
+
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    float: left;
+    background-image: url(images/学成在线.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.guide {
+    width: 410px;
+    height: inherit;
+    background-color: aqua;
+    float: left;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.guide1:hover {
+    text-decoration-line: underline;
+}
+
+.box1 {
+    height: 40px;
+    width: 55px;
+    /* background-color: black; */
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.box2 {
+    height: 40px;
+    width: 55px;
+    /* background-color: black; */
+    margin-top: 30px;
+    margin-left: 22px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.box3 {
+    height: 40px;
+    width: 95px;
+    /* background-color: black; */
+    margin-top: 30px;
+    margin-left: 22px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.box1:hover {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: #00a4ff;
+}
+
+.box2:hover {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: #00a4ff;
+}
+
+.box3:hover {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: #00a4ff;
+}
+
+.int {
+    border: 3px;
+    border-radius: 0;
+
 }
