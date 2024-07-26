@@ -234,9 +234,42 @@ a {
 }
 
 .guide2box {
-    float: left;
     width: 1200px;
+    height: 60px;
     margin: 0 auto;
     margin-top: 10px;
-    border-color: #9bceea;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .3);
+}
+
+.guide2left {
+    width: 900px;
+    height: inherit;
+    float: left;
+    /* background-color: pink; */
+}
+
+.guide2right {
+    float: left;
+    width: 275px;
+    height: inherit;
+    margin-right: 25px;
+    line-height: 60px;
+    text-align: right;
+}
+
+
+.liebiao3 {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.list3 {
+    float: left;
+    width: 120px;
+    height: 20px;
+    margin-top: 20px;
+    border-right: 2px solid #bfbfbf;
+    text-align: center;
+    line-height: 20px;
 }
