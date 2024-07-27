@@ -193,6 +193,12 @@ a {
     line-height: 45px;
 }
 
+.list:hover {
+    border: 1px solid #e7f3fa;
+    border-left: 0;
+    border-right: 0;
+}
+
 .upbox {
     height: 50px;
     background-color: #9bceea;
@@ -258,6 +264,10 @@ a {
     text-align: right;
 }
 
+.guide2right:hover {
+    color: #9bceea
+}
+
 
 .liebiao3 {
     list-style: none;
@@ -272,6 +282,10 @@ a {
     border-right: 2px solid #bfbfbf;
     text-align: center;
     line-height: 20px;
+}
+
+.list3:hover {
+    color: #00a4ff;
 }
 
 .littlebox {
@@ -302,4 +316,82 @@ a {
     line-height: 12px;
     color: #494949;
     text-align: right;
+}
+
+.classbox {
+    width: 1200px;
+    margin: 0 auto;
+    height: 560px;
+    /* background-color: #9bceea; */
+}
+
+.class1 {
+    float: left;
+    width: 228px;
+    height: 270px;
+    /* background-color: #e7f3fa; */
+    margin-left: 12.5px;
+    border: 1px solid #e7f3fa;
+}
+
+.class2 {
+    margin-top: 15px;
+    float: left;
+    width: 228px;
+    height: 270px;
+    /* background-color: #e7f3fa; */
+    margin-left: 12.5px;
+    border: 1px solid #e7f3fa;
+}
+
+.class1:hover {
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, .3);
+}
+
+.class2:hover {
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, .3);
+}
+
+.classtop1 {
+    height: 155px;
+    width: 230px;
+    float: left;
+    background-image: url(images/1.png);
+}
+
+.classtop2 {
+    height: 155px;
+    width: 230px;
+    float: left;
+    background-image: url(images/2.png);
+}
+
+.classtop3 {
+    height: 155px;
+    width: 230px;
+    float: left;
+    background-image: url(images/3.png);
+}
+
+.classtop4 {
+    height: 155px;
+    width: 230px;
+    float: left;
+    background-image: url(images/4.png);
+}
+
+.classdown1 {
+    height: 50px;
+    width: 185px;
+    float: left;
+    /* text-align: center; */
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.classdown2 {
+    width: 185px;
+    margin-left: 25px;
+    float: left;
 }
