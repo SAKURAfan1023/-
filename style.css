@@ -412,14 +412,14 @@ a {
 .guide3left {
     float: left;
     width: 362px;
-    height: 80px;
+    height: 43px;
     margin-top: 37px;
 }
 
 .guide3middle {
     float: left;
     width: 368px;
-    height: 80px;
+    height: 37px;
     margin-top: 43px;
     margin-left: 70px;
 }
@@ -427,7 +427,7 @@ a {
 .guide3right {
     float: left;
     width: 400px;
-    height: 80px;
+    height: 36px;
     margin-top: 44px;
     font-size: 12px;
     color: #e0e1e3;
@@ -498,4 +498,58 @@ a {
     width: 230px;
     float: left;
     background-image: url(images/8.png);
+}
+
+.classbox3 {
+    width: 1210px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.logo2 {
+    height: 100px;
+    width: 200px;
+
+    font-size: 12px;
+    color: #666666;
+    background-image: url(images/学成在线.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footertext {
+    font-size: 12px;
+    color: #666666;
+}
+
+.button3 {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    margin-top: 15px;
+}
+
+.footerright1 {
+    margin-right: 30px;
+    float: right;
+    font-size: 16px;
+}
+
+.footerright2 {
+    margin-right: 120px;
+    float: right;
+    font-size: 16px;
+}
+
+.footerrighttext {
+    font-size: 12px;
+    color: #333333;
 }
